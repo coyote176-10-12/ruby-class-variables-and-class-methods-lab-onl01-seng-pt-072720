@@ -20,11 +20,11 @@ class Song
   end
   
   def self.genres
-    @@genres.uiq
+    @@genres.uniq
   end
   
   def self.artists
-    @@artists
+    @@artists.uniq
   end
   
   
