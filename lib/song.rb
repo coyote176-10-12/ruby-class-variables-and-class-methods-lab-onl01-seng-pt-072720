@@ -19,12 +19,12 @@ class Song
     @@count
   end
   
-  def genres
-    @@genres = []
+  def genre
+    @@genre = []
   end
   
-  def artists
-    @@artists = []
+  def artist
+    @@artist = []
   end
   
   
