@@ -20,7 +20,7 @@ class Song
   end
   
   def genres[]
-    @@[]
+    @@genres = []
   end
   
   def artists[]
