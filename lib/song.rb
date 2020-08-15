@@ -19,11 +19,11 @@ class Song
     @@count
   end
   
-  def genres[]
+  def genres
     @@genres = []
   end
   
-  def artists[]
+  def artists
     @@artists = []
   end
   
