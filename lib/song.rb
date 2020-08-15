@@ -3,7 +3,8 @@ class Song
   
   @@count = 0 
   @@genres = []
-  @@artists = 
+  @@artists = []
+  @@
  
   def initialize(name)
     @@count += 1 
@@ -17,5 +18,10 @@ class Song
   def genres[]
     @@[]
   end
+  
+  def artists[]
+    @@artists = []
+  end
+  
   
 end
