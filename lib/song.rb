@@ -20,11 +20,11 @@ class Song
   end
   
   def self.genre
-    @@genre = []
+    @@genre
   end
   
   def self.artist
-    @@artist = []
+    @@artist
   end
   
   
